@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.body-wrapper{
+    background-image:linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url("../img/slider1.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.create-btn{
+    top: 17px;
+    left: 1084px;
+    width: 181px;
+    height: 46px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0px;
+    margin-left: 37px;
+}
+ul li {
+   
+    padding-top: 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item a{
+    color: #fff;
+}
+.navbar-expand-lg .navbar-collapse {
+   
+    margin-left: 76% !important;
+}
+.main-logo {
+    background-color: #fff;
+    width: 147px;
+    height: 147px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.main-logo h1{
+    font-size: 4.7rem;
+    color: #EB2929;
+    padding-top: 22px;
+}
+.banner-form {
+    margin-left: 189px;
+    margin-top: 28px;
+}
+.banner-form .form-control {
+    border-radius: 0px;
+    padding: 0.7rem 0.75rem;
+    border: 1px solid #fff
+}
+.input-group-addon {
+    padding: 6px 0px 6px 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #74819E;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+  
+}
+i.fa.fa-search {
+    font-size: 16px;
+    padding-top: 9px;
+}
+
+.banner-heading h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 1%;
+}
+h3{
+    margin-top: 0px !important;
+}
+.banner-logo {
+    margin-top: 40px;
+}
+
+.food-sec {
+    background-color:#FBFBFB;
+}
+.food-sec-heading{
+  padding: 3rem 0px 2.3rem 0px;
+}
+.item1 {
+    background-color: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    
+}
+.item1-img img{
+    width: 100%;
+    height: 100%;
+}
+.item-description {
+    padding:12px 0px 8px 0px;
+}
+.item-description p {
+    color: #8C96AB;
+    font-size: 14px;
+}
+.item-description h5{
+    color: #192F60;
+    
+    font-weight: 600;
+}
+@media (max-width:567px){
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 30% !important;
+    }
+    /* .navbar-nav{
+        display: flex !important;
+    }
+    .navbar-nav .nav-link{
+        width: 40%;
+    } */
+    .banner-form {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    
+}
